@@ -11,4 +11,7 @@ int pop(struct stack *obj)
     // we can follow with removing element or with our removing element (not implemented here !);
     ele = obj->array[obj->top];
     obj->top = obj->top-1;
+
+    // as the pop rule of the stack , we need to return the poped item in the stack;
+    return ele;
 }
