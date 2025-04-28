@@ -1,0 +1,20 @@
+struct stack
+{
+    // stack members should be as basic need to implement;
+    int capacity;
+    int *array;
+    int top;
+};
+
+int main()
+{
+    // size for stack;
+    int size;
+    printf("enter the size for stack : ");
+    scanf("%d",&size);
+    // stack creation in main function;
+    struct stack obj;
+    obj.array = malloc(sizeof(int)*size);
+    obj.capacity = size;
+    obj.top = -1;
+}
