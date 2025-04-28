@@ -1,0 +1,26 @@
+// here explained the stack implementation with array and with basic need;
+What is the Stack ?
+  0.Stack is the liner data structure, we arrange the data in stack in a specific manner as shown below;
+  1.Stack means last in first out in shart form as LIFO;
+  2.EX:- we arrange 4 books one by one right, to acces first book, we need to remove 3 books to get accesss of first book!
+         if we need last book or top book, simply we can access;
+         if we need second book we need to remove last two books simple;
+
+what is the basic need to implement the stack ?
+  The increadiants we need !;
+  1.stack size as capacity;
+  2.array as stack to store items;
+  3.top for accessing top elements of stack and for other operations like pop,peek!
+
+what and all major functions involved in the stack ?
+  push :- to add elements or items into stack;
+  pop :- to remove the items in the stack;
+  peek :- to access the top elements of the stack;
+  peep:- to access the specific elements of the stack with out poping or deleting the items;
+
+         
+  
+  
+
+
+
