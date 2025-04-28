@@ -1,0 +1,17 @@
+// peep in the sense just accessing stack all items in lifo format;
+// and with out removing elements of the stack array;
+void peep(struct stack *obj)
+{
+    // if no stack items in the sense;
+    if(obj->top==-1)
+    {
+        printf("no stack !");
+        return;
+    }
+    // if we have stack elements;
+    int temptop = obj->top;
+    while(temptop!=-1)
+    {
+        printf("%d->",obj->array[temptop--]);
+    }
+}
