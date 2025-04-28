@@ -1,12 +1,14 @@
-void pop(struct stack *obj)
+int pop(struct stack *obj)
 {
+    int ele;
     // if stack is empty;
     if(obj->top==-1)
     {
         printf("Stack is Empty...!");
-        return;
+        return -1;
     }
     // if stack is not empty in the sense;
     // we can follow with removing element or with our removing element (not implemented here !);
+    ele = obj->array[obj->top];
     obj->top = obj->top-1;
 }
