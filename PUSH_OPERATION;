@@ -1,0 +1,13 @@
+void push(struct stack *obj,int ele)
+{
+    //if size or capacity of the stack is FULL;
+    if(obj->top==obj->capacity-1)
+    {
+        printf("Sorry, Stack is Full !");
+        return;
+    }
+    // for every add we need to increment the top;
+    obj->top=obj->top+1;
+    // adding element into stack array;
+    obj->array[obj->top] = ele;
+}
