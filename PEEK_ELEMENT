@@ -1,0 +1,10 @@
+void peek(struct stack *obj)
+{
+    // if no element in stack;
+    if(obj->top==-1)
+    {
+        printf("sorry...!, stack is empyty, no peek item !");
+        return;
+    }
+    printf("PEEK element : %d",obj->array[obj->top]);
+}
