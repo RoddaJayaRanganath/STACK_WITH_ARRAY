@@ -13,5 +13,5 @@ int pop(struct stack *obj)
     obj->top = obj->top-1;
 
     // as the pop rule of the stack , we need to return the poped item in the stack;
-    return ele;
+    return ele;// modification referance only.
 }
