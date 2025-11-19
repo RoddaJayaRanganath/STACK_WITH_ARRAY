@@ -1,6 +1,7 @@
 void peek(struct stack *obj)
 {
     // if no element in stack;
+    // this condition will work i think.
     if(obj->top==-1)
     {
         printf("sorry...!, stack is empyty, no peek item !");
